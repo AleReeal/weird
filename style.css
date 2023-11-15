@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sfondo{
+    background-image: url('images/lobby.png');
+    background-size:  100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+#welcomeback{
+    font-family: helvetica;
+    color: red;
+    font-size: 3.5vw;
+    margin-left: 38.5vw;
+    margin-top: 26.5vh;
+}
+
+#procedi{
+    width: 33vw;
+    float: right;
+    height: 33vh;
+    cursor: url("images/cursoreavanti.gif"), auto;
+}
+
+/*
+@keyframes cursor {
+    0% {cursor: url("animazione cursore avanti/frame_00_delay-0.03s.gif"), auto;}
+    20% {cursor: url("animazione cursore avanti/frame_01_delay-0.03s.gif"), auto;}
+    40% {cursor: url("animazione cursore avanti/frame_02_delay-0.03s.gif"), auto;}
+    60% {cursor: url("animazione cursore avanti/frame_03_delay-0.03s.gif"), auto;}
+    80% {cursor: url("animazione cursore avanti/frame_04_delay-0.03s.gif"), auto;}
+    100% {cursor: url("animazione cursore avanti/frame_05_delay-0.03s.gif"), auto;}
+}*/
+
+#bcity{
+    animation: bcity 5s infinite 0s;
+}
+
+@keyframes bcity{
+    0% {margin-left: 0vw;}
+    25% {margin-left: 35vw;}
+    50% {margin-left: 70vw}
+    75% {margin-left: 35vw;}
+    100% {margin-left: 0vw;}
+}
+
+.vaisinistra{
+    float:left; 
+    width: 30vw; 
+    height: 80vh;
+    cursor: url("images/cursoresinistra.gif"), auto;
+}
+
+.vaidestra{
+    float:right; 
+    width: 30vw; 
+    height: 80vh;
+    cursor: url("images/cursoredestra.gif"), auto;
+}
+
+.vaiindietro{
+    position: fixed;
+    bottom: 0px;
+    width: 100%; 
+    height: 40vh;
+    cursor: url("images/cursoreindietro.gif"), auto;
+}
